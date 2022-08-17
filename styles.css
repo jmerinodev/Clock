@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "DS-DIGIB";
+    src: url(font/DS-DIGIB.TTF);
+}
+
+body {
+    background-color: black;
+}
+
+#clock {
+    letter-spacing: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    user-select: none;
+    font-family: "DS-DIGIB";
+    font-size: 5rem;
+    color: #1CD3FE;
+}
